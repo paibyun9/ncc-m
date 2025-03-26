@@ -16,17 +16,15 @@ This repository contains the Python code and dataset used for the spatial statis
 Ensure Python 3.11.11 (or 3.11.9, 3.12.8) is installed.
 Install the required libraries:
 
+
 bash
 
 /opt/homebrew/bin/python3.11 -m pip install -r requirements.txt
 For non-macOS systems, use:
+
+
 bash
 
-Collapse
-
-Wrap
-
-Copy
 python3.11 -m pip install -r requirements.txt
 Alternatively, install manually:
 
@@ -43,11 +41,6 @@ Run the script with the provided dataset:
 
 bash
 
-Collapse
-
-Wrap
-
-Copy
 /opt/homebrew/bin/python3.11 NCC-M.py data.csv
 For non-macOS systems:
 
